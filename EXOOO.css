@@ -1,0 +1,41 @@
+h1{
+    color: royalblue;
+    text-align: center;
+    padding: 150px;
+    background-image: url("image.png");
+}
+   
+
+html{
+    background-color:blanchedalmond;
+}
+
+
+.ma-classe{
+    color:aqua;
+}
+    color:brown;
+
+
+    .ma-classe-2 {
+        color:brown 
+    }
+
+    h1{
+          font-family: "Cormorant", serif;
+          text-align: center;
+    }
+
+    img hover:{
+        opacity: 0,5
+    }
+
+    a:active{
+        text-decoration-color: brown;
+    }
+
+    img:hover + h2 {
+        color:blueviolet;
+    }
+
+    
