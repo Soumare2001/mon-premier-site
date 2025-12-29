@@ -1,0 +1,84 @@
+h1{
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+
+.menu a{
+   text-decoration: none;
+   margin:0 10px;
+   font-weight: bold;
+   color: blue;
+}
+
+html{
+    background-color:rgb(244, 214, 214);
+}
+
+main{
+    flex: 1;
+}
+
+.formulaire-contact{
+    width: 80%;
+    max-width: 600px;
+    margin:0 auto;
+
+ .field {
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 48%; /* grow | shrink | base-width ≈ 48% */
+      min-width: 220px;
+}
+
+
+ .field label {
+      margin-bottom: 6px;
+      font-size: 14px;
+      color:#333;
+}
+
+ .ligne {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+}
+
+
+
+form{
+    display:flex;
+    width: 50%;
+    margin:20px auto;
+}
+
+label{
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    height: 120px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+ .formulaire-contact .field textarea {
+      min-height: 110px;
+      resize: vertical;
+      }
+
+button {
+    width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 12px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+

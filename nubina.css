@@ -1,0 +1,28 @@
+h1{
+color:white;
+background-color: blue;
+text-align: center;
+padding: 50px;
+margin: 0 auto;
+}
+
+.Menu a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin:0 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: background-color 0,3s;
+    color: blue;
+}
+
+p{
+    width: 40%;
+    margin-left: 0 auto;
+    line-height: 1,6;
+}
+
+html{
+    background-color:rgb(244, 214, 214);
+}
+
